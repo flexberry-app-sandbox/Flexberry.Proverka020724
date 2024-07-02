@@ -1,0 +1,1 @@
+docker-compose -p proverka020724 up -d

@@ -1,0 +1,57 @@
+﻿{
+  "name": "IISProverka020724Кошка",
+  "modelName": "i-i-s-proverka020724-кошка",
+  "className": "Кошка",
+  "nameSpace": "IIS.Proverka020724",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "возраст",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "кличка",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "окрас",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "жилье",
+      "relatedTo": "i-i-s-proverka020724-жилье",
+      "inverse": null
+    }
+  ],
+  "hasMany": [
+    {
+      "name": "лапаКошки",
+      "relatedTo": "i-i-s-proverka020724-лапа-кошки",
+      "inverse": "кошка"
+    }
+  ],
+  "projections": [],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

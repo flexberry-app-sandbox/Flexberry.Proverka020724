@@ -1,0 +1,42 @@
+﻿{
+  "name": "IISProverka020724ЛапаКошки",
+  "modelName": "i-i-s-proverka020724-лапа-кошки",
+  "className": "ЛапаКошки",
+  "nameSpace": "IIS.Proverka020724",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "расположение",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "целостность",
+      "type": "boolean",
+      "flexberryType": "bool",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "кошка",
+      "relatedTo": "i-i-s-proverka020724-кошка",
+      "inverse": "лапаКошки"
+    }
+  ],
+  "hasMany": [],
+  "projections": [],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

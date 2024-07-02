@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proverka020724.Objects", "Objects/Proverka020724.Objects.csproj", "4b162826-a2c6-4c9b-96e7-4e602575ab75"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proverka020724.Tests", "Tests/Proverka020724.Tests.csproj", "769bc8e1-c82f-4cd0-9b51-f58d2bb94883"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proverka020724.IntegrationTests", "IntegrationTests/Proverka020724.IntegrationTests.csproj", "e35d128f-9805-4d53-8261-2aa08b37cd6f"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+Debug|Any CPU = Debug|Any CPU
+Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		4b162826-a2c6-4c9b-96e7-4e602575ab75.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		4b162826-a2c6-4c9b-96e7-4e602575ab75.Debug|Any CPU.Build.0 = Debug|Any CPU
+		4b162826-a2c6-4c9b-96e7-4e602575ab75.Release|Any CPU.ActiveCfg = Release|Any CPU
+		4b162826-a2c6-4c9b-96e7-4e602575ab75.Release|Any CPU.Build.0 = Release|Any CPU
+		769bc8e1-c82f-4cd0-9b51-f58d2bb94883.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		769bc8e1-c82f-4cd0-9b51-f58d2bb94883.Debug|Any CPU.Build.0 = Debug|Any CPU
+		769bc8e1-c82f-4cd0-9b51-f58d2bb94883.Release|Any CPU.ActiveCfg = Release|Any CPU
+		769bc8e1-c82f-4cd0-9b51-f58d2bb94883.Release|Any CPU.Build.0 = Release|Any CPU
+		e35d128f-9805-4d53-8261-2aa08b37cd6f.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		e35d128f-9805-4d53-8261-2aa08b37cd6f.Debug|Any CPU.Build.0 = Debug|Any CPU
+		e35d128f-9805-4d53-8261-2aa08b37cd6f.Release|Any CPU.ActiveCfg = Release|Any CPU
+		e35d128f-9805-4d53-8261-2aa08b37cd6f.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
